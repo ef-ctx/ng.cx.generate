@@ -13,7 +13,9 @@
     }
   ],
   "keywords": [
-    "angularjs"
+    "angularjs",
+    "random",
+    "uuid"
   ],
   "homepage": "https://github.com/ef-ctx/ng.cx.generate",
   "bugs": "https://github.com/ef-ctx/ng.cx.generate/issues",
