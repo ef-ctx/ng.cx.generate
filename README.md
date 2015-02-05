@@ -1,5 +1,6 @@
 # ng.cx.generate
 [![Build Status: Linux](http://img.shields.io/travis/ef-ctx/ng.cx.generate/master.svg?style=flat-square)](https://travis-ci.org/ef-ctx/ng.cx.generate)
+[![Bower version](http://img.shields.io/bower/v/ng.cx.generate.svg?style=flat-square)](https://github.com/ef-ctx/ng.cx.generate)
 
 > AngularJS service, provides methods to generate uuid, random strings and sequences.
 
