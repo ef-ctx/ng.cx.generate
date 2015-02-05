@@ -21,7 +21,7 @@ $ npm install --save ng.cx.generate
 ```
 
 Include the following JS in your build:
--
+- dist/ng.cx.generate.js OR dist/ng.cx.generate.min.js
 
 
 ## Contributing
