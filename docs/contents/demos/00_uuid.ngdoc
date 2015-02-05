@@ -11,7 +11,7 @@ Generate RFC4122 version 4 ids http://www.ietf.org/rfc/rfc4122.txt.
         <script>
             angular.module('exampleApp', ['ng.cx.generate'])
             .controller('exampleCtrl', ['$scope', 'cxGenerate', function ($scope, cxGenerate) {
-            $scope.out = '';
+                $scope.out = '';
                 $scope.generate = function () {
                     $scope.out += cxGenerate.uuid() + '\n';
                 };
