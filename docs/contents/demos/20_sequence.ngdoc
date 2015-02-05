@@ -1,0 +1,45 @@
+@ngdoc overview
+@name sequence
+@description
+
+## sequence
+
+Generates a (optionally prefixed) sequence string. Ex: `my-00A`.
+
+<doc:example module="exampleApp" height="500">
+    <doc:source>
+        <script>
+            angular.module('exampleApp', ['ng.cx.generate'])
+            .controller('exampleCtrl', ['$scope', 'cxGenerate', function ($scope, cxGenerate) {
+                $scope.out = '';
+                $scope.prefix = null;
+                $scope.generate = function () {
+                    $scope.out += cxGenerate.sequence($scope.prefix) + '\n';
+                };
+            }]);
+        </script>
+        <style>
+            form {
+                padding: 10px;
+            }
+            textarea.form-control {
+                height: 200px;
+            }
+        </style>
+        <div data-ng-controller="exampleCtrl">
+            <form name="exampleForm">
+                <div class="form-group">
+                    <label>prefix</label>
+                    <input type="text" ng-model="prefix" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <button ng-click="generate()">generate</button>
+                </div>
+                <div class="throttled">
+                    <label>sequence:</label>
+                    <textarea ng-model="out" class="form-control"></textarea>
+                </div>
+            </form>
+        </div>
+    </doc:source>
+</doc:example>

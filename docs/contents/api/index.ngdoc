@@ -1,0 +1,9 @@
+@ngdoc overview
+@name API Reference
+@description
+
+# ng.cx.generate API Reference
+
+Welcome to the **ng.cx.generate** API reference.
+
+If you want to know how **ng.cx.generate** works, checkout the {@link guide/ guide} and the {@link demos/ demos}

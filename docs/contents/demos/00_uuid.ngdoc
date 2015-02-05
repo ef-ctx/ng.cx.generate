@@ -1,0 +1,40 @@
+@ngdoc overview
+@name uuid
+@description
+
+## uuid
+
+Generate RFC4122 version 4 ids http://www.ietf.org/rfc/rfc4122.txt.
+
+<doc:example module="exampleApp" height="500">
+    <doc:source>
+        <script>
+            angular.module('exampleApp', ['ng.cx.generate'])
+            .controller('exampleCtrl', ['$scope', 'cxGenerate', function ($scope, cxGenerate) {
+            $scope.out = '';
+                $scope.generate = function () {
+                    $scope.out += cxGenerate.uuid() + '\n';
+                };
+            }]);
+        </script>
+        <style>
+            form {
+                padding: 10px;
+            }
+            textarea.form-control {
+                height: 200px;
+            }
+        </style>
+        <div data-ng-controller="exampleCtrl">
+            <form name="exampleForm">
+                <div class="form-group">
+                    <button ng-click="generate()">generate</button>
+                </div>
+                <div class="throttled">
+                    <label>uuid:</label>
+                    <textarea ng-model="out" class="form-control"></textarea>
+                </div>
+            </form>
+        </div>
+    </doc:source>
+</doc:example>
