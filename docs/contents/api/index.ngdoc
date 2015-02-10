@@ -4,6 +4,10 @@
 
 # ng.cx.generate API Reference
 
-Welcome to the **ng.cx.generate** API reference.
+> Welcome to the **ng.cx.generate** API reference.
 
-If you want to know how **ng.cx.generate** works, checkout the {@link guide/ guide} and the {@link demos/ demos}
+If you want to know how **ng.cx.generate** works, checkout the {@link guide/ guide} and the {@link demos/ demos}.
+
+## Modules
+
+- **[ng.cl.generate](#/api/ng.cl.generate)** - Provides methods to generate uuid, random strings and sequences.

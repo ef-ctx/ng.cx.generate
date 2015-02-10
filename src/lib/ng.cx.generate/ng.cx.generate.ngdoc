@@ -2,4 +2,8 @@
 @name ng.cx.generate
 @description
 
-AngularJS service, provides methods to generate uuid, random strings and sequences.
+> AngularJS service, provides methods to generate uuid, random strings and sequences.
+
+# Dependencies
+
+- None
