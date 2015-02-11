@@ -1,6 +1,6 @@
 {
   "name": "ng.cx.generate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AngularJS service, provides methods to generate uuid, random strings and sequences.",
   "authors": [
     "EF CTX <ctx@ef.com> (http://ef.com)"

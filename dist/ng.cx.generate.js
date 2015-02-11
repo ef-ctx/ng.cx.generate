@@ -1,5 +1,5 @@
 /**
- * ng.cx.generate - v0.0.1 - 2015-02-05
+ * ng.cx.generate - v0.0.2 - 2015-02-11
  * https://github.com/ef-ctx/ng.cx.generate
  *
  * Copyright (c) 2015 EF CTX <http://ef.com>
