@@ -9,6 +9,7 @@
 
 > AngularJS service, provides methods to generate uuid, random strings and sequences.
 
+
 ## Getting Started
 
 Via bower:
